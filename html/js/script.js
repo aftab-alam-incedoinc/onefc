@@ -17,7 +17,7 @@ $(document).ready(function(){
 		navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>']
 	});
 	//initMobileMenu();
-	$('ul.navbar-nav > li .fa').click(function(e){
+	$('ul.navbar-nav > li a .fa').click(function(e){
 		e.preventDefault();
 		e.stopPropagation();
 		if($(this).hasClass('fa-plus')){
